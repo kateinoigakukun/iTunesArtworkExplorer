@@ -1,0 +1,16 @@
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Debug\iTunesArtworkExplore.exe.config
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Debug\iTunesArtworkExplore.exe
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Debug\iTunesArtworkExplore.pdb
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.csprojResolveAssemblyReference.cache
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.Properties.Resources.resources
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.csproj.GenerateResource.Cache
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.exe
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.pdb
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\Interop.iTunesLib.dll
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.csproj.ResolveComReference.cache
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\Interop.ADOX.dll
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Debug\iTunesArtworkExplore.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Debug\iTunesArtworkExplore.application
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.application
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Debug\iTunesArtworkExplore.iTunesArtworkExplore.resources
