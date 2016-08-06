@@ -14,3 +14,19 @@
 \\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.exe.manifest
 \\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.application
 \\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.iTunesArtworkExplorer.resources
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplorer.exe.config
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\Interop.ADOX.dll
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\Interop.iTunesLib.dll
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csproj.ResolveComReference.cache
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplorer.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplorer.application
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplorer.exe
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplorer.pdb
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csprojResolveAssemblyReference.cache
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.iTunesArtworkExplorer.resources
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.Properties.Resources.resources
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csproj.GenerateResource.Cache
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.application
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.exe
+Z:\yuutas4\projects\iTunesArtworkExplorer\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.pdb

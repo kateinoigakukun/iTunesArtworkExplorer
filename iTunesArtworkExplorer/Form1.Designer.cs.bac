@@ -45,9 +45,6 @@ namespace iTunesArtworkExplorer
             this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.artistDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.trackID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.queryTextBox = new System.Windows.Forms.TextBox();
-            this.searchButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.artworkPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.apiResultGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
@@ -66,16 +63,19 @@ namespace iTunesArtworkExplorer
             this.trackNameLabel.AutoSize = true;
             this.trackNameLabel.Location = new System.Drawing.Point(171, 13);
             this.trackNameLabel.Name = "trackNameLabel";
-            this.trackNameLabel.Size = new System.Drawing.Size(0, 12);
+            this.trackNameLabel.Size = new System.Drawing.Size(35, 12);
             this.trackNameLabel.TabIndex = 1;
+            this.trackNameLabel.Text = "";
+            this.trackNameLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // trackArtistLabel
             // 
             this.trackArtistLabel.AutoSize = true;
             this.trackArtistLabel.Location = new System.Drawing.Point(170, 25);
             this.trackArtistLabel.Name = "trackArtistLabel";
-            this.trackArtistLabel.Size = new System.Drawing.Size(0, 12);
+            this.trackArtistLabel.Size = new System.Drawing.Size(35, 12);
             this.trackArtistLabel.TabIndex = 2;
+            this.trackArtistLabel.Text = "";
             // 
             // apiResultGridView
             // 
@@ -112,37 +112,18 @@ namespace iTunesArtworkExplorer
             this.artistDataGridViewTextBoxColumn.DataPropertyName = "Artist";
             this.artistDataGridViewTextBoxColumn.HeaderText = "Artist";
             this.artistDataGridViewTextBoxColumn.Name = "artistDataGridViewTextBoxColumn";
-            // 
-            // trackID
-            // 
+            //
+            // idDataGridViewTextBoxColumn
+            //
             this.idDataGridViewTextBoxColumn.DataPropertyName = "trackID";
             this.idDataGridViewTextBoxColumn.HeaderText = "trackID";
             this.idDataGridViewTextBoxColumn.Name = "trackID";
             // 
-            // queryTextBox
-            // 
-            this.queryTextBox.Location = new System.Drawing.Point(173, 147);
-            this.queryTextBox.Name = "queryTextBox";
-            this.queryTextBox.Size = new System.Drawing.Size(485, 19);
-            this.queryTextBox.TabIndex = 3;
-            // 
-            // searchButton
-            // 
-            this.searchButton.Location = new System.Drawing.Point(664, 145);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(75, 23);
-            this.searchButton.TabIndex = 4;
-            this.searchButton.Text = "Search";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(SearchButton_Click);
-            // 
-            // iTunesArtworkExplorer
+            // iTunesArtworkExplore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 711);
-            this.Controls.Add(this.searchButton);
-            this.Controls.Add(this.queryTextBox);
             this.Controls.Add(this.apiResultGridView);
             this.Controls.Add(this.trackArtistLabel);
             this.Controls.Add(this.trackNameLabel);
@@ -160,8 +141,6 @@ namespace iTunesArtworkExplorer
 
         }
 
-
-
         #endregion
 
         private System.Windows.Forms.PictureBox artworkPictureBox;
@@ -173,9 +152,6 @@ namespace iTunesArtworkExplorer
         private DataGridViewTextBoxColumn artistDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private DataTable dt;
-        private DataGridViewTextBoxColumn trackID;
-        private TextBox queryTextBox;
-        private Button searchButton;
     }
 }
 

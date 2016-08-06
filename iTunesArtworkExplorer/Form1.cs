@@ -66,7 +66,7 @@ namespace iTunesArtworkExplorer
 
 
             this.model.trackName = track.Name;
-
+            this.queryTextBox.Text = $"{track.Name} {track.Artist}";
             var api = new iTunesAPI();
             dynamic data = api.getSearchResult($"{track.Name} {track.Artist}");
             this.dt.Clear();
@@ -148,8 +148,31 @@ namespace iTunesArtworkExplorer
           return new Bitmap( imgStream );
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void SearchButton_Click(object sender, System.EventArgs e)
         {
+            string query = this.queryTextBox.Text;
+
+            var api = new iTunesAPI();
+            dynamic data = api.getSearchResult(query);
+            this.dt.Clear();
+            if (data == null) return;
+
+
+            foreach (var item in data.results)
+            {
+                DataRow row = this.dt.NewRow();
+                this.model.imageURLs[item.trackId.ToString() as string] = item.artworkUrl100;
+                Image img = loadImageFromURL(item.artworkUrl100.ToString() as string);
+                string artwork = item.artworkUrl100.ToString() as string;
+                string title = item.trackCensoredName.ToString() as string;
+                string artist = item.artistName.ToString() as string;
+
+                row["Artwork"] = img;
+                row["Title"] = item.trackCensoredName.ToString() as string;
+                row["Artist"] = item.artistName.ToString() as string;
+                row["trackID"] = item.trackId;
+                this.dt.Rows.Add(row);
+            }
 
         }
     }
