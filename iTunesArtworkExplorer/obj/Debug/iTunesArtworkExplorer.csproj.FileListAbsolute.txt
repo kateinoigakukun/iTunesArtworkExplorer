@@ -1,0 +1,16 @@
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplore.exe.config
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\Interop.ADOX.dll
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\Interop.iTunesLib.dll
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csproj.ResolveComReference.cache
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.exe
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.pdb
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplore.exe.manifest
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplore.application
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplore.exe
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\bin\Debug\iTunesArtworkExplore.pdb
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.Properties.Resources.resources
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.exe.manifest
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplore.application
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplorer\obj\Debug\iTunesArtworkExplorer.iTunesArtworkExplorer.resources

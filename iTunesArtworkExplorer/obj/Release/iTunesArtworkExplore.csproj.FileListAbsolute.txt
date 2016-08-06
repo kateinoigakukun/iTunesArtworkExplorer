@@ -1,0 +1,22 @@
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.exe.config
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\Interop.ADOX.dll
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\Interop.iTunesLib.dll
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.csproj.ResolveComReference.cache
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.application
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.exe
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.pdb
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.iTunesArtworkExplore.resources
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.Properties.Resources.resources
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.csproj.GenerateResource.Cache
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.exe.manifest
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.application
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.exe
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.pdb
+Z:\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\bin\Release\iTunesArtworkExplore.exe.config
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\Interop.ADOX.dll
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\Interop.iTunesLib.dll
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.csproj.ResolveComReference.cache
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.exe
+\\vmware-host\Shared Folders\yuutas4\projects\iTunesArtworkExplore\iTunesArtworkExplore\obj\Release\iTunesArtworkExplore.pdb
