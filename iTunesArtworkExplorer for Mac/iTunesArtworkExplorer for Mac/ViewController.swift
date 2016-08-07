@@ -22,15 +22,13 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
         self.model.getJSON(self.queryTextField.stringValue)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func loadView() {
+        super.loadView()
+        
         self.model = iTunesArtworkExplorerModel()
         self.model.addObserver(self, forKeyPath: "isChanged", options: NSKeyValueObservingOptions.New, context: nil)
         self.apiResultTableView.setDelegate(self)
-
         self.apiResultTableView.setDataSource(self)
-
         
         NSDistributedNotificationCenter.defaultCenter().addObserver(self, selector: #selector(onPlay), name:"com.apple.iTunes.playerInfo", object: nil)
         

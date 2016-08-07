@@ -21,7 +21,7 @@ class iTunesArtworkExplorer_for_MacTests: XCTestCase {
         super.tearDown()
     }
     func testExample() {
-        let model = iTunesArtworkExplorerModel()
+        let model = iTunesSearchAPI(term: "test", country: .jp, media: .music(ent: nil, attr: nil) , limit: 10, lang: .Ja )
 //        model.setArtwork()
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
