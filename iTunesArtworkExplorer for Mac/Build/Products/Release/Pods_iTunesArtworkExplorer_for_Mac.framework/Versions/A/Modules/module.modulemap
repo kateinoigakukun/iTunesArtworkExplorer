@@ -1,0 +1,6 @@
+framework module Pods_iTunesArtworkExplorer_for_Mac {
+  umbrella header "Pods-iTunesArtworkExplorer for Mac-umbrella.h"
+
+  export *
+  module * { export * }
+}
