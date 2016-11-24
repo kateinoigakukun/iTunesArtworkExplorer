@@ -27,9 +27,11 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
         
         self.model = iTunesArtworkExplorerModel()
         self.model.addObserver(self, forKeyPath: "isChanged", options: NSKeyValueObservingOptions.New, context: nil)
-        self.apiResultTableView.setDelegate(self)
-        self.apiResultTableView.setDataSource(self)
-        
+        self.apiResultTableView.delegate = self
+//        self.apiResultTableView.setDelegate(self)
+        self.apiResultTableView.dataSource = self
+//        self.apiResultTableView.setDataSource(self)
+
         NSDistributedNotificationCenter.defaultCenter().addObserver(self, selector: #selector(onPlay), name:"com.apple.iTunes.playerInfo", object: nil)
         
         var artwork: NSImage?
@@ -89,7 +91,7 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
             let bmap = NSBitmapImageRep(data: artwork.TIFFRepresentation!)
             let userDir = NSProcessInfo.processInfo().environment["HOME"]!
             let highImagePath = "\(userDir)/.iTunesArtworkExplorer/highreso.jpg"
-            bmap?.representationUsingType(.NSJPEGFileType, properties: [:])?
+            bmap?.representationUsingType(.JPEG, properties: [:])?
                 .writeToFile(highImagePath, atomically: true)
             self.model.setArtwork(highImagePath)
         }catch{

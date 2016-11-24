@@ -76,11 +76,15 @@ class iTunesArtworkExplorerModel: NSObject {
         var err : NSDictionary?
         if let scriptObject = NSAppleScript(source: getNameAS) {
             let output = scriptObject.executeAndReturnError(&err)
-            name = output.stringValue!
+            if let _name = output.stringValue {
+                name = _name
+            }
         }
         if let scriptObject = NSAppleScript(source: getArtist) {
             let output = scriptObject.executeAndReturnError(&err)
-            artist = output.stringValue!
+            if let _artist = output.stringValue {
+                artist = _artist
+            }
         }
         return (name: name, artist: artist)
         
@@ -121,8 +125,12 @@ class iTunesArtworkExplorerModel: NSObject {
         
         var err : NSDictionary?
         if let scriptObject = NSAppleScript(source: appleScript) {
-            let output = scriptObject.executeAndReturnError(&err)
-            return NSURL(fileURLWithPath: output.stringValue!, isDirectory: false)
+             let output = scriptObject.executeAndReturnError(&err)
+             if let res = output.stringValue {
+                return NSURL(fileURLWithPath: res, isDirectory: false)
+            }else{
+                return nil
+            }
         }
         return nil
 
