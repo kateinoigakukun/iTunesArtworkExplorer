@@ -10,6 +10,4 @@ Click [here](https://github.com/kateinoigakukun/iTunesArtworkExplorer/raw/master
 ##Usage
 When a song is playing on iTunes, iTunesArtworkExplorer automatically shows artwork list. Please select correct artwork.
 
-##Demo
-
 <img src="demo/screenshot.png" width="80%">
